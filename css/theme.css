@@ -1,0 +1,25 @@
+@import url(./reset.css);
+
+/* theme */
+header > h1 {
+  background-color: rgba(45, 52, 54, 1);
+  color: #fff;
+  font-weight: normal;
+  line-height: 6.5rem; /* 65px */
+  text-align: center;
+  font-size: 4.5rem;
+}
+section {
+  max-width: 90rem; /* 900px */
+  margin: 5rem auto;
+  border: solid 0.1rem #333;
+  padding: 1rem;
+}
+section img {
+  width: 100%;
+}
+
+footer *{
+    text-align: center;
+}
+
