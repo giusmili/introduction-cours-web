@@ -6,7 +6,8 @@ html {
 
 /* prop générale pour mettre en forme la police de base  */
 body {
-  font: 1.6rem sans-serif;
+  font: 1.6rem 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
   letter-spacing: 0.1rem;
   line-height: 1.6;
   margin: 0;
