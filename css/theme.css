@@ -3,9 +3,19 @@
 @import url(./reset.css);
 
 /* theme */
+:root{ /* selector root = racine avec les variables */
+    --bgcolor: rgb(26, 27, 27);
+    --color-text-title: #e5aa09;
+    --color-border: #ccc;
+    --border-radius: 1rem;
+    --bgsection: #fafafa;
+    --subtitle: uppercase; 
+    --bgmain: #34495e;   
+} 
+
 header > h1 {
-  background-color: rgba(45, 52, 54, 1);
-  color: #fff;
+  background-color: var(--bgcolor);
+  color: var(--color-text-title);
   font-weight: normal;
   line-height: 6.5rem; /* 65px */
   text-align: center;
@@ -15,13 +25,19 @@ header > h1 {
   font-style: normal;
 }
 section {
+  background-color: var(--bgsection);
   max-width: 90rem; /* 900px */
   margin: 5rem auto;
-  border: solid 0.1rem #333;
+  border: solid 0.1rem var(--color-border, var(--border-radius));
+  border-radius: var(--border-radius);
   padding: 1rem;
 }
 section img {
   width: 100%;
+}
+section h2{
+  text-transform: var(--subtitle);
+  font-weight: 400;
 }
 
 footer *{
