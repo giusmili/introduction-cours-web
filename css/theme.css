@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 @import url(./reset.css);
 
 /* theme */
-:root{ /* selector root = racine avec les variables */
-    --bgcolor: rgb(26, 27, 27);
-    --color-text-title: #e5aa09;
-    --color-border: #ccc;
-    --border-radius: .4rem;
-    --bgsection: #fafafa;
-    --subtitle: uppercase; 
-    --bgmain: #34495e;   
-} 
+:root {
+  /* selector root = racine avec les variables */
+  --bgcolor: rgb(26, 27, 27);
+  --color-text-title: #e5aa09;
+  --color-border: #ccc;
+  --border-radius: 0.4rem;
+  --bgsection: #fafafa;
+  --subtitle: uppercase;
+  --bgmain: #34495e;
+}
 
 header > h1 {
   background-color: var(--bgcolor);
@@ -36,18 +37,18 @@ section img {
   width: 100%;
   border-radius: var(--border-radius);
 }
-section h2{
+section h2 {
   text-transform: var(--subtitle);
   font-weight: 400;
 }
 /* création d'un bouton par un élément a */
-section .btn-default{
+section .btn-default {
   display: inline-block;
   width: max-content;
   line-height: 3.5rem;
-  border: solid .1rem var(--bgmain);
+  border: solid 0.1rem var(--bgmain);
   color: var(--bgsection);
-  padding: .3rem 1rem;
+  padding: 0.3rem 1rem;
   margin: 1rem 0;
   border-radius: var(--border-radius);
   background: var(--bgcolor);
@@ -55,16 +56,10 @@ section .btn-default{
   font-size: 1.4rem;
 }
 
-footer *{
-    text-align: center;
-    color: var(--bgsection);
+footer * {
+  text-align: center;
+  color: var(--bgsection);
 }
-u
-
-
-
-
-
 
 /* class css */
 
@@ -86,8 +81,7 @@ u
     rgba(0, 0, 0, 0.2) 30%,
     rgba(0, 0, 0, 0)
   );
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -96,8 +90,6 @@ u
 }
 
 .event-btn:active {
-  box-shadow:
-    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
-
