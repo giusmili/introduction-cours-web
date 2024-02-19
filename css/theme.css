@@ -7,7 +7,7 @@
     --bgcolor: rgb(26, 27, 27);
     --color-text-title: #e5aa09;
     --color-border: #ccc;
-    --border-radius: 1rem;
+    --border-radius: .4rem;
     --bgsection: #fafafa;
     --subtitle: uppercase; 
     --bgmain: #34495e;   
@@ -34,14 +34,27 @@ section {
 }
 section img {
   width: 100%;
+  border-radius: var(--border-radius);
 }
 section h2{
   text-transform: var(--subtitle);
   font-weight: 400;
 }
+section .btn-default{
+  display: inline-block;
+  width: max-content;
+  line-height: 3.5rem;
+  border: solid .1rem var(--bgmain);
+  color: var(--bgsection);
+  padding: .2rem 1rem;
+  margin: 1rem 0;
+  border-radius: var(--border-radius);
+  background: var(--bgmain);
+}
 
 footer *{
     text-align: center;
+    color: var(--bgsection);
 }
 
 
