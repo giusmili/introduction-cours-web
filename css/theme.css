@@ -40,6 +40,7 @@ section h2{
   text-transform: var(--subtitle);
   font-weight: 400;
 }
+/* création d'un bouton par un élément a */
 section .btn-default{
   display: inline-block;
   width: max-content;
