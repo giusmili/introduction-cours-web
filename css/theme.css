@@ -62,6 +62,22 @@ footer * {
 }
 
 /* class css */
+ul li data:hover{
+  cursor: pointer;
+
+}
+/* l'utilisation est seulement visuel */
+data:hover::after {
+  content: ' (Utilisation du code ' attr(value) ')'; /* pseudo class */
+  font-size: 1.2rem;
+  width: max-content;
+  background: #f2bb06;
+  padding: .4rem;
+  border-radius: .4rem;
+  cursor: pointer;
+  margin-left: .5rem;
+  box-shadow: 0 0 .8rem #817f7f;
+}
 
 .event-btn {
   width: max-content;
