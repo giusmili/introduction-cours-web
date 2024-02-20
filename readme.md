@@ -17,9 +17,8 @@ body{
 }
 ```
 
+[Voir la page de publication](https://giusmili.github.io/introduction-cours-web/) &raquo;
 
 [![forthebadge](https://forthebadge.com/images/featured/featured-uses-html.svg)](https://forthebadge.com)
 
-[Voir la page de publication](https://giusmili.github.io/introduction-cours-web/)
 
->Cours d'html et markdown
