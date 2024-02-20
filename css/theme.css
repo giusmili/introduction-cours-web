@@ -13,6 +13,7 @@
   --subtitle: uppercase;
   --bgmain: #34495e;
   --btn-default-color: #817f7f;
+  --nom-de-votre-variable: none;
 }
 
 header > h1 {
