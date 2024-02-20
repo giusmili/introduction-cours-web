@@ -6,10 +6,11 @@
 ## Exemple css
 ```css
 /* reset css */
-    html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+html{
+font-size: 62.5%;
+scroll-behavior: smooth;
 }
+
 body{
     font: 1.6rem 'Montserrat', sans-serif;
     margin: 0;
