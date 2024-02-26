@@ -58,14 +58,28 @@ section h2 {
  .btn-option-success{ /* couleur vert */
   background-color: #16a085;
   color: var(--bgsection);
+ 
+  
+}
+.btn-option-warning{
+  background-color: #c0392b;
+  color: var(--bgsection);
+  
+}
+.btn-option-success, 
+.btn-option-warning{
   transition: all .3s ease-in-out;
 }
 /* add pseudo class hover */
 
- .btn-option-warning{
-  background-color: #c0392b;
-  color: var(--bgsection);
+.btn-option-success:hover, 
+.btn-option-warning:hover{
+   filter: brightness(.5); /* filter luminosité */
 }
+
+
+
+
 
 /* title level two */
 .title-level-two{
