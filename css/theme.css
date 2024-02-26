@@ -46,7 +46,7 @@ section img {
   box-shadow: 0;
 }
 section img:hover{
-  box-shadow: 0 0 1.9rem #eb8107;
+  /* box-shadow: 0 0 1.9rem #eb8107; */
   opacity: .9;
   transform: scale(1.5) rotateY(360deg);
   filter: initial;
