@@ -58,7 +58,10 @@ section h2 {
  .btn-option-success{ /* couleur vert */
   background-color: #16a085;
   color: var(--bgsection);
+  transition: all .3s ease-in-out;
 }
+/* add pseudo class hover */
+
  .btn-option-warning{
   background-color: #c0392b;
   color: var(--bgsection);
